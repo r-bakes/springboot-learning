@@ -1,0 +1,19 @@
+# Spring security configurations for Dev/ Debug
+spring:
+  h2:
+    console.enabled: true
+  datasource:
+    url: jdbc:h2:mem:bookstore
+    username: admin
+    password: 
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+
+# Logging Configurations for Dev / Debug
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE
