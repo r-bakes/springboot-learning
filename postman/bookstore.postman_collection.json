@@ -43,7 +43,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"author\": \"Riley Bakes\",\n    \"title\": \"Altered Carbon\",\n    \"stock\": 0\n}",
+							"raw": "{\n    \"author\": \"Riley Bakes\",\n    \"title\": \"Book 6\",\n    \"stock\": 1,\n    \"price\": 14.99\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -71,7 +71,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"author\": \"Riley Owen Bakes\",\n    \"title\": \"Altered Carbon\"\n}",
+							"raw": "{\n    \"author\": \"Riley Owen Bakes\",\n    \"title\": \"Book 5\",\n    \"stock\": 5,\n    \"price\": 14.99\n}",
 							"options": {
 								"raw": {
 									"language": "json"

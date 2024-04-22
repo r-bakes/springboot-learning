@@ -33,6 +33,7 @@ public class InventoryService {
         book.setAuthor(updatedBook.getAuthor());
         book.setTitle(updatedBook.getTitle());
         book.setStock(updatedBook.getStock());
+        book.setPrice(updatedBook.getPrice());
 
         book = repository.save(book);
 
@@ -46,6 +47,7 @@ public class InventoryService {
                         .author(newBook.getAuthor())
                         .title(newBook.getTitle())
                         .stock(newBook.getStock())
+                        .price(newBook.getPrice())
                         .build()
         );
 
