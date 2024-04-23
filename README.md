@@ -4,17 +4,17 @@
 ## Features
 
 1. Manage the bookstore inventory
-   2. Add a new book, stock and inventory to the shop
-   3. Remove a book
-   4. Update a book 
-2. Manage a users cart
-   3. Add books
-   4. Remove books
-   5. Checkout
+   - Add a new book, stock and inventory to the shop
+   - Remove a book
+   - Update a book 
+3. Manage a users cart
+   - Add books
+   - Remove books
+      Checkout
 
-3. Production ready API documentation via [Swagger](https://swagger.io/specification/v2/)
-4. Production ready Health check endpoints via [Actuator](https://github.com/spring-projects/spring-boot/tree/v3.2.5/spring-boot-project/spring-boot-actuator)
-5. Postman Collection for testing. See `bookstore/postman`.
+4. Production ready API documentation via [Swagger](https://swagger.io/specification/v2/)
+5. Production ready Health check endpoints via [Actuator](https://github.com/spring-projects/spring-boot/tree/v3.2.5/spring-boot-project/spring-boot-actuator)
+6. Postman Collection for testing. See `bookstore/postman`.
 
 ## Contributing
 
